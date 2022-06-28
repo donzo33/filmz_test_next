@@ -1,0 +1,31 @@
+.lists{
+    display: flex;
+   
+flex-flow: wrap;
+
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+padding:3%;
+    width: 33%;
+ 
+}
+.picture {
+  width: 100%;
+}
+.infos{
+  text-align: center;
+}
+
+
+@media (max-width: 994px) {
+  
+  .lists {
+    flex-direction: column;
+  }
+  .items{
+    width: 100%;
+  }
+}
